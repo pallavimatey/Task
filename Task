@@ -1,0 +1,8 @@
+Task:
+I need you to write a python script, which will do the following.
+
+- Connect to ETH Websocket RPC (any public RPC can be used) Example: wss://mainnet.gateway.tenderly.co
+- Listen to events of PairCreated from uniswap v2.
+- Get token 0 and token 1 of the pair, and print following details of pair
+- token 0 name, token 1 name, token 0 symbol, token 1 symbol
+

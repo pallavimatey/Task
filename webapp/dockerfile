@@ -1,0 +1,6 @@
+FROM centos:7
+LABEL author "lokesh matey"
+LABEL description "my first docker file"
+RUN yum install httpd 
+RUN echo "<h1> Hello World"  > /var/www/html/index.html
+CMD httpd -DFOREGROUND
